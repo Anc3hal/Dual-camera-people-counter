@@ -1,26 +1,23 @@
-# Dual-camera-people-counter
-# Multi-Camera People Counter using YOLOv8 and DeepSORT
+# Dual-Camera People Counter
 
-This project is a real-time **people counting system** using **YOLOv8 object detection** and **DeepSORT object tracking** on two camera feeds (USB or IP cams). It tracks individuals across a virtual line to count **entries and exits** separately for each camera.
-
----
+Real-time **Multi-Camera People Counter** using **YOLOv8** and **DeepSORT**.  
+This system counts people entering and exiting across **two camera feeds** (USB/IP cameras) with CAN bus integration.
 
 ## Features
+- Multi-camera support (Camera 1 & Camera 2)
+- YOLOv8 object detection
+- DeepSORT object tracking
+- Entry/Exit counting with a virtual line
+- CAN protocol integration for IoT/embedded systems
+- Organized code & outputs
 
-- Real-time person detection using YOLOv8 (`yolov8n.pt`)
-- Multi-camera support (2 video sources)
-- Entry and Exit line counting logic
-- Unique ID tracking using DeepSORT
-- Live video display with count overlays
-- Logs events like Entry and Exit with ID
-
----
-
-## Requirements
-
-Install the following Python packages before running the project:
-
-```bash
-pip install ultralytics
-pip install opencv-python
-pip install deep_sort_realtime
+## Project Structure
+Dual-camera-people-counter/
+│── src/ # Main source code
+│ └── people_counter.py
+│
+│── outputs/ # Demo results (images/GIFs)
+│ └── demo.gif
+│
+│── requirements.txt # Python dependencies
+│── README.md # Project documentation
