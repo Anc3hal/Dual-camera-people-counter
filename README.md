@@ -1,4 +1,4 @@
-# Dual-Camera People Counter
+# Multi Camera People Counter with CAN Protocol Integration
 
 Real-time **Multi-Camera People Counter** using **YOLOv8** and **DeepSORT**.  
 This system counts people entering and exiting across **two camera feeds** (USB/IP cameras) with CAN bus integration.
